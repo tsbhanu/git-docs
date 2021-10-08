@@ -122,42 +122,6 @@ git revert cid
 
 
 
-TOUCH, CAT, VI
------------------------
-touch
---------
-touch file1
-ls
-touch file2 file3 file4
-
-
-CAT
------
-cat > file5
-....
-....
-ctrl+d
-
-cat file5
-
-cat >> file5
-...
-...
-ctrl+d
-
-VI
----
-
-vi file6
----------
-esc i
-........
-.........
-esc :w
-esc :q
-or
-esc :wq!
-
 git status
 git config --global alias.s "status"
 git s
